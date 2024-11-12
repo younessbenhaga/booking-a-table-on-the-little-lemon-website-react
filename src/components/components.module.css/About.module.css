@@ -1,0 +1,55 @@
+.about {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partOne {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 40rem;
+    overflow-wrap: break-word;
+    text-align: justify;
+    margin-right: 4rem;
+}
+
+.partOne p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.partTwo {
+    width: 20rem;
+    height: 20rem;
+    object-fit: none;
+    position: relative;
+}
+
+.imageOne {
+    width: 80%;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    /* width: 40%;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1; */
+}
+
+.imageTwo {
+    width: 80%;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    /* width: 40%;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    left: 4rem;
+    top: -8rem; */
+}

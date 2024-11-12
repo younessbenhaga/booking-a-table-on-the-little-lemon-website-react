@@ -1,0 +1,55 @@
+.hero {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #495E57;
+}
+
+.partOne {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 28rem;
+    overflow-wrap: break-word;
+    text-align: justify;
+    margin-right: 4rem;
+}
+
+.partOne h1 {
+    color: #F4CE14;
+}
+
+.partOne h3,
+.partOne p {
+    color: #fff;
+}
+
+.partOne p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.hero button {
+    padding: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #333;
+    background-color: #F4CE14;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    opacity: 0.8;
+}
+
+.hero button:active {
+    transform: translateY(2px);
+}
+
+.image {
+    width: 12%;
+    border-radius: 10px;
+}

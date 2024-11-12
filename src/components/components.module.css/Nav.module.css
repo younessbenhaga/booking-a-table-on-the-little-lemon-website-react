@@ -1,0 +1,44 @@
+.nav {
+    margin-top: 2rem;
+}
+
+.nav img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.nav .headerLogoLine {
+    border-bottom: 2px solid #495E57;
+    width: 40%;
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navList {
+    margin-top: 2rem;
+}
+
+.navList ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navList ul li {
+    list-style-type: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.navList ul li a {
+    text-decoration: none;
+    font-size: large;
+}
+
+.navList ul li a:hover {
+    text-decoration: underline;
+}
